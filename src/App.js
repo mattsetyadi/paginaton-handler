@@ -5,6 +5,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import FrontEnd from './pages/FrontEnd';
+import BackEnd from './pages/BackEnd';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Switch>
             <Route exact path='/' component={Home} />
             <Route exact path='/handle-frontend' component={FrontEnd} />
+            <Route exact path='/handle-backend' component={BackEnd} />
           </Switch>
         </div>
       </Router>

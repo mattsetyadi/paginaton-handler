@@ -3,3 +3,8 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.card-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}

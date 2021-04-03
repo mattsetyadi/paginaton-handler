@@ -10,7 +10,7 @@ const Navbar = () => {
 
       <div className='collapse navbar-collapse' id='navbarSupportedContent'>
         <ul className='navbar-nav mr-auto'>
-          <li className='nav-item active'>
+          <li className='nav-item'>
             <Link className='nav-link' to='/'>
               Home
             </Link>
@@ -18,6 +18,11 @@ const Navbar = () => {
           <li className='nav-item'>
             <Link className='nav-link' to='/handle-frontend'>
               FE Handler
+            </Link>
+          </li>
+          <li className='nav-item'>
+            <Link className='nav-link' to='/handle-backend'>
+              BE Handler
             </Link>
           </li>
         </ul>

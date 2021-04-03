@@ -36,6 +36,7 @@ const FrontEnd = () => {
 
   const handlePostsPerpage = (e) => {
     setPostsPerPage(e.target.value);
+    setCurrentPage(1);
   };
 
   return (
