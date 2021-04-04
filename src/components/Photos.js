@@ -10,7 +10,7 @@ const Photos = ({ photos, loading }) => {
       {photos.map((photo) => (
         <div
           className='card my-3 mx-4 '
-          style={{ width: '18rem' }}
+          style={{ width: '20rem' }}
           key={photo.id}
         >
           <img className='card-img-top' src={photo.url} alt='Photos card' />
